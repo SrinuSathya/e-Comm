@@ -10,4 +10,21 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MenuService\API\Middlewares\" />
+    <Folder Include="MenuService\API\Configurations\" />
+    <Folder Include="MenuService\Application\DTOs\" />
+    <Folder Include="MenuService\Application\Interfaces\" />
+    <Folder Include="MenuService\Application\Queries\" />
+    <Folder Include="MenuService\Controllers\" />
+    <Folder Include="MenuService\Domain\Entities\" />
+    <Folder Include="MenuService\Domain\Enums\" />
+    <Folder Include="MenuService\Domain\Specifications\" />
+    <Folder Include="MenuService\Infrastructure\ExternalServices\" />
+    <Folder Include="MenuService\Infrastructure\Persistence\" />
+    <Folder Include="MenuService\Infrastructure\Repositories\" />
+    <Folder Include="MenuService\Tests\Integration\" />
+    <Folder Include="MenuService\Tests\Unit\" />
+  </ItemGroup>
+
 </Project>
